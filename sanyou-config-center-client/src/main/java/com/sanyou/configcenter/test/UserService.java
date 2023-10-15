@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
 
-    @Value("${sanyou.username}")
+    @Value("${tkzou.username}")
     private String username;
 
     public String getUsername() {

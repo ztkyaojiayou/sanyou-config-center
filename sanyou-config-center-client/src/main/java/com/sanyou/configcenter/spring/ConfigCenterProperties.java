@@ -5,7 +5,7 @@ import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * 配置文件
+ * 当前配置中心的配置文件
  * 微信公众号：三友的java日记
  *
  * @author sanyou

@@ -13,7 +13,7 @@ public interface ConfigFileChangedListener {
 
     /**
      * 文件修改之后会回调
-     *
+     * 具体工作：配置文件修改后会发布事件，然后spring就会自动从配置中心拉取最新数据，修改Bean的属性
      * @param configFile
      */
     void onFileChanged(ConfigFile configFile);
